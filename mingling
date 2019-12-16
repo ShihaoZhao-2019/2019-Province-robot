@@ -1,0 +1,69 @@
+1.杀死进程
+ps -ef 
+kill  pid
+
+
+
+2.编译程序并执行
+先更改list文件
+cd 源文件目录
+cmake . 
+make
+
+cd 可执行文件目录
+./文件名
+
+
+3.测试相机是否连接
+cheese
+
+
+4.查看设备串口号
+ls -l /dev/ttyUSB*
+
+
+5.删除
+删除文件　
+rm ***
+删除目录　
+rm -R dir
+
+
+6.安装ＱＴ
+sudo apt-get install qt5-default qtcreator cmake
+
+
+7.打印当前路径
+pwd
+
+
+8.移动文件到文件夹
+mv file dir
+
+9.
+
+10.关机
+shutdown -h now
+shutdown -h 10 
+shutdown -c
+
+
+11.重启
+shutdown -r now 
+shutdown -r 10
+shutdown -r 20:35
+shutdown -c
+
+
+12.解决中文输入法不能使用的问题
+sudo apt-get install scim-pinyin
+
+13.卸载软件
+dpkg -l|grep name 查找软件包名
+sudo dpkg -r 软件包名
+
+14.安装软件
+ sudo dpkg -i netease-cloud-music_1.0.0_amd64.deb 
+ apt-get install -f    安装依赖	
+
+
