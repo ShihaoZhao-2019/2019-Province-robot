@@ -65,5 +65,9 @@ sudo dpkg -r 软件包名
 14.安装软件
  sudo dpkg -i netease-cloud-music_1.0.0_amd64.deb 
  apt-get install -f    安装依赖	
+ 
+15.命令行编译c++
+g++ hello.o -o hello
+./hello
 
 
